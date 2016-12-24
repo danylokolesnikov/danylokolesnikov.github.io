@@ -1,0 +1,259 @@
+@import "reset.css";
+@font-face {
+  font-family: Avenir;
+  src: url('../fonts/AvenirLTStd-Book.otf');
+}
+
+
+
+/* general styles*/
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Avenir;
+}
+
+.wrapp {
+  overflow: hidden;
+  font-family: Avenir;
+}
+
+.container {
+  overflow: hidden;
+  margin: auto;
+  max-width: 960px;
+  width: 100%;
+  min-height: inherit;
+}
+
+/* begin HEADER styles*/
+.site-header,
+.site-nav {
+  overflow: hidden;
+}
+
+.site-header{
+  position: fixed;
+  background: white;
+  width: 100%;
+}
+
+  .site-header a {
+    color: #82868f;
+  }
+
+.site-nav {
+  line-height: 80px;
+}
+
+.site-name {
+  float: left;
+  margin-right: 500px;
+  padding: 0 10px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.label {
+  float: left;
+  margin: 0 10px;
+
+  text-transform: uppercase;
+}
+
+.label a{
+  display: inline-block;
+  line-height: 80px;
+  width: 100%;
+  font-size: 10px;
+}
+
+.sign a{
+  width: 120px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #0ebfdd;
+  border-radius: 20px;
+}
+
+/*end HEADER styles*/
+
+/*begin OUR-MISSION styles*/
+
+.our-mission {
+  min-height: 600px;
+  margin: 82px 0 0 0;
+  color: #ffffff;
+  background: url('../img/Mount.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.our-mission-header {
+  margin: 400px auto 30px;
+  background: url('../img/stars.png') no-repeat center;
+}
+
+.text-h2 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.text-p {
+  margin: auto;
+  max-width: 820px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/*end OUR MISSION styles*/
+
+/*begin ABOUT styles*/
+
+.about {
+  min-height: 250px;
+  vertical-align: middle;
+}
+
+.about-header {
+  margin: 60px auto 35px;
+  color: #0ebfdd;
+}
+
+.about-par {
+  color: #45494d;
+}
+
+/*end ABOUT*/
+
+/* begin TEAM*/
+.team {
+  min-height: 600px;
+
+  color: #ffffff;
+  background-color: #0ebfdd;
+  text-align: center;
+
+}
+
+.team-header {
+  margin: 60px auto 105px;
+}
+
+.team-list {
+  overflow: hidden;
+  max-width: 590px;
+  min-height: 300px;
+  margin: auto;
+}
+
+.team-item {
+  float: left;
+  margin: 0 70px 100px 0;
+}
+
+  .team-item:last-child {
+    margin-right: 0;
+  }
+
+.img-wrap {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  margin: 0 0 15px;
+  border-radius: 100%;
+}
+
+.team-person-img {
+  width: 150px;
+  height: auto;
+}
+
+.team-person-info {
+  text-align: center;
+  font-weight: bold;
+}
+
+.team-person-position {
+  line-height: 25px;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.button-work {
+  padding: 15px 35px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+
+.button-work:hover {
+  background-color: #ffffff;
+  color: #0ebfdd;
+}
+/*end TEAM*/
+
+/*begin MAP styles*/
+
+.map {
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.map-field {
+  width: 100%;
+  min-height: 600px;
+}
+/*end MAP*/
+
+/*begin FOOTER*/
+.site-footer {
+  min-height: 120px;
+
+  color: #73767a;
+  background-color: #45494d;
+}
+
+.footer-nav-list {
+  overflow: hidden;
+
+  border-bottom: 1px solid #5a5e62;
+}
+
+.footer-nav-list .label a{
+  color: #d7dee4;
+}
+
+
+
+.social {
+  float: left;
+  margin-left: 10px;
+  line-height: 80px;
+}
+.first-social {
+  margin-left: 630px;
+}
+  .social-a {
+    line-height: 80px;
+  }
+
+  .social-img {
+    vertical-align: middle;
+  }
+
+.privacy {
+  float: right;
+  text-transform: capitalize;
+  line-height: 39px;
+}
+
+/*end FOOTER styles*/
