@@ -1,0 +1,336 @@
+/*!!! general styles*/
+html  {
+    background-color: #c8cfdc;
+}
+
+.wrap {
+    width: 1500px;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.productList {
+    overflow: hidden;
+}
+
+/*general styles for small and big sections */
+.smallSection,
+.bigSection {
+    position: relative;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+
+/*!!! begin styles for SMALL SECTIONS*/
+.smallSection {
+    height: 430px;
+    width: 280px;
+}
+
+    .smallSection:first-child {
+        background-color: #383d68;
+    }
+
+    /* general styles for icon like and basket*/
+.likeAndBasket {
+    position: relative;
+    height: 100px;
+}
+
+.like,
+.basket,
+.exclusive,
+.new {
+    position: absolute;
+    top: 45px;
+    float: left;
+}
+
+.like,
+.basket {
+  cursor: pointer;
+}
+
+.exclusive {
+    left: 50%;
+    top: 42px;
+    width: 80px;
+    padding: 3px 0;
+    margin-left: -40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #0089cf;
+    border-radius: 30px;
+}
+
+.like {
+    left: 40px;
+    opacity: 0;
+    transition: opacity 1s, visibility 0s;
+}
+
+.smallSection:hover .like,
+.bigSection:hover .like {
+    opacity: 1;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+
+}
+.basket {
+    right: 40px;
+    opacity: 0;
+    transition: opacity 1s, visibility 0s;
+
+}
+
+.smallSection:hover .basket,
+.bigSection:hover .basket {
+    opacity: 1;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.smallProduct {
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    width: 233px;
+    margin-left: -116px;
+
+}
+
+.smallProduct img{
+    width: 233px;
+}
+
+.productName,
+.productDescription,
+.productPrice {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #333333;
+}
+
+
+.productName {
+    bottom: 105px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.productDescription {
+    bottom: 80px;
+    font-size: 15px;
+    color: #a3a3a3;
+}
+
+.productPrice {
+    bottom: 40px;
+    font-size: 22px;
+}
+
+.whiteText {
+    color: #ffffff;
+}
+
+.exPrice {
+    color: #fc7070;
+    text-decoration: line-through;
+}
+
+/*!!! end SMALL SECTIONS*/
+
+/*!!! begin styles for NEW ARRIVALS*/
+.newArrivals {
+    color: #333333;
+}
+
+.newArrTitle {
+    height: 80px;
+}
+
+    .title {
+        line-height: 80px;
+        text-transform: uppercase;
+    }
+
+.newProductName {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.newProductImg {
+    position: absolute;
+    top: 137px;
+    left: -55px;
+}
+
+/*!!! end NEW ARRIVALS*/
+
+
+/*!!! begin styles for FIRST BIG SECTION*/
+.bigSection {
+    height: 430px;
+    width: 580px;
+}
+
+.leftOriented {
+
+}
+
+
+.leftFigure {
+    width: 280px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+.leftFigure img {
+    position: relative;
+    top: -10px;
+}
+.leftOriented .likeAndBasket {
+    position: absolute;
+    left: 303px
+}
+
+.bigSection .basket {
+    left: 100px;
+    z-index: 1;
+}
+
+.bigSection .like {
+    left: -70px;
+    z-index: 1;
+}
+
+.new {
+    width: 50px;
+    padding: 4px 0;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #83d78c;
+    border-radius: 30px;
+}
+
+.rightSideSection {
+    margin: 120px 0 0 0;
+}
+
+.bigProductBrand {
+    line-height: 30px;
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.bigProductName {
+    line-height: 30px;
+    font-size: 17px;
+    color: #666666;
+}
+
+.bigProductDescr {
+    line-height: 25px;
+    font-size: 15px;
+    color: #989898;
+}
+
+.bigProductPrice {
+    position: static;
+    line-height: 45px;
+}
+
+/*!!! end FIRST BIG SECTION*/
+
+/*!!! begin styles SECOND BIG SECTION*/
+
+.topOriented {
+    text-align: center;
+}
+
+    .topOriented .likeAndBasket {
+        position: absolute;
+        left: 265px;
+        z-index: 1;
+    }
+
+.bigTopImage {
+    height: 280px;
+    overflow: hidden;
+}
+
+.bigTopImage img{
+    position: relative;
+    top: -50px;
+    left: -30px;
+}
+
+.topOriented .bigProductBrand {
+    line-height: 70px;
+}
+
+/*!!! end SECOND BIG SECTION*/
+
+/*!!! begin styles for LAST ITEM (BRAND NIXON)*/
+
+.smallSection:last-child {
+    position: static;
+    color: #ffffff;
+    background-color: #333333;
+}
+
+
+.companyLogoAndBrand {
+    text-align: center;
+}
+
+
+.brand {
+    height: 80px;
+}
+
+    /*span of brand*/
+    .brandName {
+        line-height: 80px;
+        text-transform: uppercase;
+    }
+
+/*section*/
+.companyInformation {
+    margin: 0 20px;
+}
+
+/*p*/
+.descriptionText {
+    margin: 30px 0;
+    color: #a7a7a7;
+    font-size: 19px;
+}
+
+/*a*/
+.linkToShop {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+/*styles for >*/
+.array {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*!!! end LAST ITEM*/
