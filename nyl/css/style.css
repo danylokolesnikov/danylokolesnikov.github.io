@@ -15,6 +15,10 @@
   src: url(../fonts/OpenSans-Bold.ttf);
 }
 
+/*
+  STYLES FOR 1t SECTION
+*/
+
 .first_section {
   position: relative;
   background-image: linear-gradient(#19aecb, #8bdee3);
@@ -118,8 +122,6 @@ footer> img {
   border: 1px solid #d4d4d4;
 }
 
-input {outline:none;}
-
 .input_subscribe:focus {
   border-color: #c2c2c2;
 }
@@ -135,12 +137,6 @@ input {outline:none;}
 }
 .input_subscribe:-moz-placeholder {
   color: #a3a0a0;
-}
-
-button,
-button:active,
-button:focus {
-    outline: none;
 }
 
 .subscribe_button {
@@ -262,7 +258,13 @@ button:focus {
   font-size: 9px;
 }
 
+/*
+  MEDIA STYLES FOR VIEWPORT TO 640px
+*/
+
 @media screen and (max-width: 639px) {
+
+  /* Set size of center div */
   .content {
     min-width: 320px;
     max-width: 400px;
@@ -271,16 +273,15 @@ button:focus {
   .merry_christmas, .new_line {
     display: block;
   }
+
   .bag320 {
     display: inline;
   }
   .bag640 {
     display: none;
   }
-  .bag1920 {
-    display: none;
-  }
 
+    /* Styles to BALLS 320-:-640px*/
 
   .big_ball {
     width: 145px;
@@ -338,7 +339,12 @@ button:focus {
 
 }
 
+
+/*
+  MEDIA STYLES FOR VIEWPORT TO 1100px
+*/
 @media screen and (min-width:640px) and (max-width:1099px) {
+  /* Set size of center div */
   .content {
     min-width: 640px;
     max-width: 700px;
@@ -370,6 +376,9 @@ button:focus {
   .third_section {
     height: 400px;
   }
+
+
+  /* Styles to BALLS 640-:-1100px*/
 
   .trim {
     height: 72px;
@@ -440,7 +449,12 @@ button:focus {
 }
 
 
+/*
+  MEDIA STYLES FOR VIEWPORT FROM 1100px
+*/
+
 @media screen and (min-width:1100px) {
+
   .content {
     width: 1000px;
   }
@@ -502,6 +516,9 @@ button:focus {
     margin-top: 12px;
     font-size: 25px;
   }
+
+
+  /* Styles to BALLS from 1100px*/
 
   .trim {
     background: url(../img/trim1920.png) no-repeat;
@@ -565,5 +582,4 @@ button:focus {
     font-size: 16px;
     padding: 5px;
   }
-
 }
