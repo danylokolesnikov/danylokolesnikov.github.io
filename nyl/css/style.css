@@ -1,0 +1,567 @@
+@font-face {
+    font-family: Altair-Bold;
+    src: url(../fonts/Altair-BoldTrial.ttf);
+   }
+@font-face {
+     font-family: Atlair-Thin;
+     src: url(../fonts/Altair-ThinTrial.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+.first_section {
+  position: relative;
+  background-image: linear-gradient(#19aecb, #8bdee3);
+  text-align: center;
+}
+
+
+.trees {
+  position: absolute;
+  height: 220px;
+  width: 100%;
+  background: url(../img/trees.png) no-repeat center;
+  bottom: 0;
+  z-index: 1;
+}
+
+footer {
+  height: 200px;
+  vertical-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+footer> img {
+  margin: 30px 0 0;
+}
+  .first_section_logo img {
+    margin: 28px 0 10px 20px;
+  }
+
+
+.description_center {
+  margin: 12px auto 30px auto;
+  width: 260px;
+
+  color: #ffffff;
+}
+
+.description_title {
+  font-family: Altair-Bold;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.description_text {
+  font-family: Atlair-Thin;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.description_text .merry_christmas {
+  text-transform: uppercase;
+  font-family: Altair-Bold;
+}
+
+
+.subscribe_frame {
+  margin-top: 7px;
+  margin: 0 auto;
+  width: 284px;
+  height: 276px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.first_section_subscribe {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 23px;
+  width: 298px;
+  height: 290px;
+
+  background: url(../img/form_frame.jpg) no-repeat;
+  border-radius: 10px;
+}
+
+.subscribe_title {
+  margin: 17px 0;
+
+  color: #df4127;
+  font-family: Altair-Bold;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.input_subscribe{
+  width: 230px;
+  height: 30px;
+  margin: 3px 0;
+  padding-left: 7px;
+
+  font-family: OpenSans;
+  font-size: 12px;
+
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+}
+
+input {outline:none;}
+
+.input_subscribe:focus {
+  border-color: #c2c2c2;
+}
+
+.input_subscribe::-webkit-input-placeholder {
+  color: #a3a0a0;
+}
+.input_subscribe::-moz-placeholder {
+  color: #a3a0a0;
+}
+.input_subscribe:-ms-input-placeholder {
+  color: #a3a0a0;
+}
+.input_subscribe:-moz-placeholder {
+  color: #a3a0a0;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+.subscribe_button {
+  width: 230px;
+  height: 53px;
+  margin-top: 20px;
+
+  color: #ffffff;
+  font-family: OpenSans-Bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 17px;
+
+  background-color: #81ce15;
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 0 -4px 0 0 #6eb10f inset;
+}
+
+.printables {
+
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+/*
+  STYLES FOR SECOND SECTION
+*/
+
+.second_section {
+  height: 100%;
+
+  background-image: linear-gradient(#df4127, #f7563b);
+}
+
+.text_center {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 280px;
+
+  line-height: 39px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Altair-Thin;
+  color: #ffffff;
+}
+
+.new_line_presents {
+  display: block;
+  font-family: Altair-Bold;
+}
+
+.bag_presents {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*
+  STYLES FOR 3d SECTION
+*/
+
+.third_section {
+  background-color: #82dae1;
+  position: relative;
+  height: 640px;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.trim {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 300px;
+  height: 87px;
+  margin-left: -150px;
+
+  z-index: 2;
+
+  background: url(../img/trim320.png) no-repeat;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.trim_text {
+  color: #ffffff;
+  font-family: Altair-Bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.ball {
+  position: absolute;
+  text-align: center;
+}
+
+.big_red, .small_ball {
+  color: #ffffff;
+}
+
+.big_white, .medium_ball {
+  color: #df4127;
+}
+
+.ball_title {
+  font-family: Altair-Bold;
+  font-size: 12px;
+  margin-bottom: 4px
+}
+
+.ball_text {
+  font-family: OpenSans;
+  font-size: 9px;
+}
+
+@media screen and (max-width: 639px) {
+  .content {
+    min-width: 320px;
+    max-width: 400px;
+  }
+
+  .merry_christmas, .new_line {
+    display: block;
+  }
+  .bag320 {
+    display: inline;
+  }
+  .bag640 {
+    display: none;
+  }
+  .bag1920 {
+    display: none;
+  }
+
+
+  .big_ball {
+    width: 145px;
+    height: 175px;
+  }
+
+  .big_red {
+    background: url(../img/big_red_ball320.png) no-repeat;
+    top: 123px;
+    left: 32px;
+  }
+
+  .education {
+    width: 43px;
+  }
+
+  .big_white {
+    background: url(../img/big_white_ball320.png) no-repeat;
+    top: 261px;
+    right: 14px;
+  }
+
+  .spirit {
+    height: 40px;
+  }
+
+  .medium_ball {
+    background: url(../img/medium_white_ball320.png) no-repeat;
+    width: 140px;
+    height: 160px;
+    top: 370px;
+    left: 23px;
+  }
+
+  .fun, .time {
+    height: 35px;
+  }
+
+  .small_ball {
+    background: url(../img/medium_red_ball320.png) no-repeat;
+    width: 126px;
+    height: 150px;
+    top: 470px;
+    right: 12px;
+  }
+
+
+  .ball_image {
+    margin-top: 40px;
+  }
+
+  .ball_text {
+    padding: 5px;
+  }
+
+}
+
+@media screen and (min-width:640px) and (max-width:1099px) {
+  .content {
+    min-width: 640px;
+    max-width: 700px;
+  }
+
+  .top_frame, .description_center, .bottom_frame {
+    width: 348px;
+  }
+
+  .text_center {
+    width: 530px;
+  }
+
+  footer > img {
+    margin: 30px 0 0 -350px;
+  }
+
+  .bag320 {
+    display: none;
+  }
+  .bag640 {
+    display: inline;
+    max-width: 640px;
+  }
+  .bag1920 {
+    display: none;
+  }
+
+  .third_section {
+    height: 400px;
+  }
+
+  .trim {
+    height: 72px;
+    width: 510px;
+    margin-left: -255px;
+    background: url(../img/trim640.png) no-repeat;
+    line-height: 53px;
+    font-size: 22px;
+  }
+
+  .medium_ball {
+    background: url(../img/medium_white_ball640.png) no-repeat;
+    width: 140px;
+    height: 352px;
+    left: 40px;
+  }
+
+  .fun {
+    margin-top: 225px;
+    width: 35px;
+  }
+
+  .big_red {
+    background: url(../img/big_red_ball640.png) no-repeat;
+    width: 146px;
+    height: 304px;
+    left: 180px;
+  }
+
+  .education {
+    margin-top: 170px;
+    width: 42px;
+  }
+
+  .big_white {
+    background: url(../img/big_white_ball640.png) no-repeat;
+    width: 146px;
+    height: 386px;
+    right: 180px;
+  }
+
+  .spirit {
+    margin-top: 247px;
+    height: 40px;
+  }
+
+  .small_ball {
+    background: url(../img/medium_red_ball640.png) no-repeat;
+    width: 126px;
+    height: 261px;
+    right: 60px;
+  }
+
+  .time {
+    margin-top: 145px;
+    height: 35px;
+  }
+
+  .ball_title {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  .ball_text {
+    font-size: 9px;
+    padding: 5px;
+  }
+}
+
+
+@media screen and (min-width:1100px) {
+  .content {
+    width: 1000px;
+  }
+
+  .description_title {
+    font-size: 25px;
+  }
+
+
+  .top_frame, .description_center, .bottom_frame {
+    width: 348px;
+  }
+
+  .text_center {
+    width: 530px;
+  }
+
+  .bag320 {
+    display: none;
+  }
+
+  .left {
+    width: 349px;
+    margin-left: 50px;
+  }
+
+  .right {
+    float: right;
+    margin-right: 50px;
+    margin-top: -300px;
+  }
+
+  .first_section_subscribe {
+    background: url(../img/form_frame_big.jpg) no-repeat;
+    width: 347px;
+    height: 373px;
+  }
+
+  .subscribe_frame {
+    width: 333px;
+    height: 359px;
+  }
+
+  .subscribe_title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    line-height: 35px;
+  }
+
+  .input_subscribe {
+    width: 267px;
+    height: 36px;
+    margin-bottom: 8px;
+  }
+
+  .subscribe_button {
+    width: 267px;
+    height: 63px;
+    margin-top: 12px;
+    font-size: 25px;
+  }
+
+  .trim {
+    background: url(../img/trim1920.png) no-repeat;
+    width: 644px;
+    height: 90px;
+    margin-left: -322px;
+    line-height: 63px;
+    font-size: 28px;
+  }
+
+  .medium_ball {
+    background: url(../img/medium_white_ball1920.png) no-repeat;
+    width: 232px;
+    height: 558px;
+    left: 45px;
+  }
+
+  .fun {
+    margin-top: 350px;
+
+  }
+
+  .big_red {
+    background: url(../img/big_red_ball1920.png) no-repeat;
+    width: 242px;
+    height: 436px;
+    left: 257px;
+  }
+
+  .education {
+    margin-top: 225px;
+  }
+
+  .big_white {
+    background: url(../img/big_white_ball1920.png) no-repeat;
+    width: 243px;
+    height: 609px;
+    right: 255px;
+  }
+
+  .spirit {
+    margin-top: 390px;
+  }
+
+  .small_ball {
+    background: url(../img/medium_red_ball1920.png) no-repeat;
+    width: 209px;
+    height: 405px;
+    right: 54px;
+  }
+
+  .time {
+    margin-top: 220px;
+  }
+
+  .ball_title {
+    font-size: 20px;
+  }
+
+  .ball_text {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+}
